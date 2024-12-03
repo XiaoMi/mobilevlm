@@ -1,0 +1,108 @@
+nohup: ignoring input
+[35m[Appium][39m Welcome to Appium v2.4.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m, port: [33m4802[39m }
+[35m[Appium][39m The autodetected Appium home path: /root/.appium
+[35m[Appium][39m Appium REST http interface listener started on http://127.0.0.1:4802
+[35m[Appium][39m No drivers have been installed in /root/.appium. Use the "appium driver" command to install the one(s) you want to use.
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m Request idempotency key: 9ae72f7a-5378-4d7c-8231-1c6f870ca646
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m12 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 0044e62b-e8f6-40ab-b268-f3234a375ec5
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m6 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 43f85c55-d696-4d4e-8253-0baf9b7a0392
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 5d55ade5-bed1-46eb-a768-bf4669f0decb
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 29d06166-9b2a-4698-a4eb-15904d8422dc
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 53d3d9e7-f687-4cbd-b593-d9c1e182e61f
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: c68b0210-8d7c-40cc-8881-adfb5c4363b3
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: a8aaef79-c11c-4fac-8a09-016bc9d9d9f7
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 6be31e8a-64fe-44db-ae88-6fb54412112a
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: f59ce8a3-aa87-4ae0-82e0-41b36d637e9c
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 01bbc567-e33c-4aad-9f42-66070527d958
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: b8ad29e3-aefb-46fd-880f-9a228ef0f298
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 30d0ee5a-2f8c-47e8-bcf2-c3042d464921
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: ff2fea51-91ba-4eb7-b76c-94b5b57eb734
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: bc8090ce-dda5-491c-b7db-bb6e7adc1527
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m Request idempotency key: 3755dc6a-2387-439e-a597-6c0f5c7032b3
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"0.0.0.0:6520","appium:udid":"0.0.0.0:6520","appium:platformVersion":"13.0","appium:automationName":"uiautomator2","appium:noReset":true,"appium:newCommandTimeout":6000,"appium:uiautomator2ServerLaunchTimeout":60000,"appium:systemPort":8451}]},"desiredCapabilities":{"platformName":"Android","deviceName":"0.0.0.0:6520","udid":"0.0.0.0:6520","platformVersion":"13.0","automationName":"uiautomator2","noReset":true,"newCommandTimeout":6000,"uiautomator2ServerLaunchTimeout":60000,"systemPort":8451}}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[38;5;0m[HTTP][0m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[38;5;16m[AppiumDriver@4fe5][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

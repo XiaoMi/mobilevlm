@@ -1,0 +1,595 @@
+{
+    "data": [
+        {
+            "name_en": "ctrip",
+            "adb": [
+                "[adb shell am start -n ctrip.android.view/ctrip.business.splash.CtripSplashActivity]"
+            ],
+            "text": [
+                "北京市",
+                "上海市",
+                "合肥市",
+                "海南市",
+                "天津市",
+                "哈尔滨市",
+                "三亚",
+                "乌鲁木齐"
+            ]
+        },
+        {
+            "name_en": "ximalaya",
+            "adb": [
+                "[adb shell am start -n com.ximalaya.ting.android/.host.activity.MainActivity]"
+            ],
+            "text": ["悬疑小说","历史类的节目","英语口语","轻松的音乐","有趣的相声节目","心理学知识","古典音乐","关于历史的有声读物","轻音乐","有声读物"]
+        },
+        {
+            "name_en": "Qunar",
+            "adb": [
+                "[adb shell monkey -p com.Qunar -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["北京","上海","小米科技园","巴黎","马尔代夫","上海市中心","北京市中心","巴厘岛","五星级酒店","靠海"]
+        },
+        {
+            "name_en": "QQ",
+            "adb": [
+                "[adb shell am start -n com.tencent.mobileqq/.activity.SplashActivity]"
+            ],
+            "text": ["小明","小红","今天晚上一起吃饭吗","动态","会议安排","张三","小爱"]
+        },
+        {
+            "name_en": "pinduoduo",
+            "adb": [
+                "[adb shell am start -n com.xunmeng.pinduoduo/.ui.activity.MainFrameActivity]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐"]
+        },
+        {
+            "name_en": "iqiyi",
+            "adb": [
+                "[adb shell am start -n com.qiyi.video/.WelcomeActivity]"
+            ],
+            "text": ["喜剧电影","悬疑电影","庆余年","复仇者联盟4","权力的游戏","最新的综艺节目","小猪佩奇","甄嬛传","健康甘肃"]
+        },
+        {
+            "name_en": "QQmusic",
+            "adb": [
+                "[adb shell am start -n com.tencent.qqmusic/.activity.AppStarterActivity]",
+                "[adb shell am start -n com.tencent.qqmusic/.activity.AppStarterActivity]"
+            ],
+            "text": ["古风歌曲","轻快的流行歌曲","周杰伦","最新的流行歌曲","摇滚歌曲","远走高飞","英文歌曲","邓紫棋","孤勇者"]
+        },
+        {
+            "name_en": "kuaishou",
+            "adb": [
+                "[adb shell am start -n com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity]"
+            ],
+            "text": ["有趣的短视频","流行歌曲的MV","适合旅行的音乐","美食","旅游","做饭","烘焙","游戏","萌宠"]
+        },
+        {
+            "name_en": "douyin",
+            "adb": [
+                "[adb shell am start -n com.ss.android.ugc.aweme/.main.MainActivity]"
+            ],
+            "text": ["有趣的短视频","流行歌曲的MV","适合旅行的音乐","美食","旅游","做饭","烘焙","游戏","萌宠"]
+        },
+        {
+            "name_en": "gaodeMap",
+            "adb": [
+                "[adb shell am start -n com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]"
+            ],
+            "text": ["附近的餐厅","电影院","北京","北京大学","机场","最近的加油站","华润五彩城","附近的药店","附近的超市","天安门广场","长城","地铁站"]
+        },
+        {
+            "name_en": "articlenews",
+            "adb": [
+                "[adb shell am start -n com.ss.android.article.news/.activity.MainActivity]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "smarthome",
+            "adb": [
+                "[adb shell am start -n com.xiaomi.smarthome/.SmartHomeMainActivity]"
+            ],
+            "text": ["智能灯","智能灯泡","亮度","我的设备列表","米家APP","智能灯泡设备","智能场景","设备日志","我的家人","客厅灯","主卧室"]
+        },
+        {
+            "name_en": "xiaomishop",
+            "adb": [
+                "[adb shell am start -n com.xiaomi.shop/.activity.MainTabActivity]"
+            ],
+            "text": ["最新的手机","新款手机","小米手机","小米电视","小米14","红米手机","充电宝","热水壶","小米T恤"]
+        },
+        {
+            "name_en": "messaging",
+            "adb": [
+                "[adb shell am start -n com.android.messaging/.ui.conversationlist.ConversationListActivity]"
+            ],
+            "text": ["晚上一起吃饭吗","张三","爸爸","今天晚上一起吃饭","妈妈","祝妈妈生日快乐，身体健康，永远幸福。","小明","明天一起去看电影吗","明天的会议时间和地点。","12306","明天从北京到上海的火车票信息。"]
+        },
+        {
+            "name_en": "contacts",
+            "adb": [
+                "[adb shell am start -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -n com.android.contacts/.activities.PeopleActivity]"
+            ],
+            "text": ["张三","13812345678","生日提醒","爸爸","李四","妈妈","李华","contacts.vcf","小明","13911223344","13798765432"]
+        },
+        {
+            "name_en": "camera",
+            "adb": [
+                "[adb shell am start -a android.media.action.IMAGE_CAPTURE]"
+            ],
+            "text": ["最近的照片","北京的旅游照片","北京","旅游","生活","默认","最新","美食","学习","截屏","工作"]
+        },
+        {
+            "name_en": "settings",
+            "adb": [
+                "[adb shell am start -a android.settings.SETTINGS]"
+            ],
+            "text": ["夜间模式","亮度","音量","蓝牙","壁纸","经典主题","振动","省电模式","飞行模式","WIFI","字体"]
+        },
+        {
+            "name_en": "deskclock",
+            "adb": [
+                "[adb shell am start -a android.intent.action.SHOW_ALARMS]"
+            ],
+            "text": ["去健身房锻炼身体","明天要参加公司会议","参加公司会议","明天早上去开会","起床","下午3点开会","纽约","买票","出门","吃饭","上学","上班"]
+        },
+        {
+            "name_en": "gallery3d",
+            "adb": [
+                "[adb shell am start -a android.intent.action.VIEW -t vnd.android.cursor.dir/image]"
+            ],
+            "text": ["风景","自然风景","夏天","动物类","可爱的动物","适合公司使用","专业","清新自然","工作场景","炫酷","卡通","简约","蓝色","黑白"]
+        },
+        {
+            "name_en": "calendar",
+            "adb": [
+                "[adb shell am start -a android.intent.action.MAIN -n com.android.calendar/.LaunchActivity]"
+            ],
+            "text": ["北京市朝阳区CBD国际大厦","新产品发布","公司会议室","公司会议","重要会议","小米科技园","公司年会","朋友生日","家庭聚餐","节假日","买书包","购物"]
+        },
+        {
+            "name_en": "quicksearchbox",
+            "adb": [
+                "[adb shell am start -a android.intent.action.VIEW -d http://]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "documentsui",
+            "adb": [
+                "[adb shell am start -n com.android.documentsui/.files.FilesActivity]"
+            ],
+            "text": ["报告.docx","工作报告","PDF","doc","汇报","照片1","png","音乐文件夹","照片文件夹","音乐","照片"]
+        },
+        {
+            "name_en": "kugou",
+            "adb": [
+                "[adb shell am start -n com.kugou.android/.app.splash.SplashActivity]"
+            ],
+            "text": ["古风歌曲","轻快的流行歌曲","周杰伦","最新的流行歌曲","摇滚歌曲","远走高飞","英文歌曲","邓紫棋","孤勇者"]
+        },
+        {
+            "name_en": "taobao",
+            "adb": [
+                "[adb shell am start -n com.taobao.taobao/com.taobao.tao.TBMainActivity]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐","插线板"]
+        },
+        {
+            "name_en": "jingdong",
+            "adb": [
+                "[adb shell am start -n com.jingdong.app.mall/.main.MainActivity]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐","插线板"]
+        },
+        {
+            "name_en": "qqlive",
+            "adb": [
+                "[adb shell am start -n com.tencent.qqlive/.ona.activity.SplashHomeActivity]"
+            ],
+            "text": ["喜剧电影","悬疑电影","庆余年","复仇者联盟4","权力的游戏","最新的综艺节目","小猪佩奇","甄嬛传","健康甘肃","动漫"]
+        },
+        {
+            "name_en": "bili",
+            "adb": [
+                "[adb shell am start -n tv.danmaku.bili/.MainActivityV2]"
+            ],
+            "text": ["有趣的短视频","流行歌曲的MV","适合旅行的音乐","美食","旅游","做饭","烘焙","游戏","萌宠","电竞","动漫"]
+        },
+        {
+            "name_en": "weixin",
+            "adb": [
+                "[adb shell am start -n com.tencent.mm/.ui.LauncherUI]"
+            ],
+            "text": ["小明","小红","今天晚上一起吃饭吗","动态","会议安排","张三","小爱"]
+        },
+        {
+            "name_en": "xiaohongshu",
+            "adb": [
+                "[adb shell am start -n com.xingin.xhs/.index.v2.IndexActivityV2]"
+            ],
+            "text": ["最新的科技新闻","旅行","关于旅行的热门话题","用户123","热门话题","张三","今天天气真好！","科技","热点","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "zhihu",
+            "adb": [
+                "[adb shell am start -n com.zhihu.android/.app.ui.activity.LauncherActivity]"
+            ],
+            "text": ["最新的科技新闻","旅行","关于旅行的热门话题","用户123","热门话题","张三","今天天气真好！","科技","热点","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "weibo",
+            "adb": [
+                "[adb shell am start -n com.sina.weibo/.SplashActivity]"
+            ],
+            "text": ["最新的科技新闻","旅行","关于旅行的热门话题","用户123","热门话题","张三","今天天气真好！","科技","热点","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "meituan",
+            "adb": [
+                "[adb shell am start -n com.sankuai.meituan/com.meituan.android.pt.homepage.activity.MainActivity]"
+            ],
+            "text": ["粤菜","下午茶","西餐","谢师宴","科技","热点","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "dianping",
+            "adb": [
+                "[adb shell am start -n com.dianping.v1/.NovaMainActivity]"
+            ],
+            "text": ["粤菜","下午茶","西餐","谢师宴","科技","热点","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "wuba",
+            "adb": [
+                "[adb shell am start -n com.wuba/.home.activity.HomeActivity]"
+            ],
+            "text": ["粤菜","下午茶","西餐","租房","打扫","应聘","美食","旅游","做饭","烘焙"]
+        },
+        {
+            "name_en": "cainiao",
+            "adb": [
+                "[adb shell am start -n com.cainiao.wireless/.homepage.view.activity.HomePageActivity]"
+            ],
+            "text": ["取件","寄一份文件","王小明","打包好的零食","杂物","大件物品","上面取件","北京市","生鲜物品","隔日达"]
+        },
+        {
+            "name_en": "shunfeng",
+            "adb": [
+                "[adb shell am start -n com.sf.activity/.MainActivity]"
+            ],
+            "text": ["取件","寄一份文件","王小明","打包好的零食","杂物","大件物品","上面取件","北京市","生鲜物品","隔日达"]
+        },
+        {
+            "name_en": "baiduBrowser",
+            "adb": [
+                "[adb shell am start -n com.baidu.searchbox/.MainActivity]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "QQBrowser",
+            "adb": [
+                "[adb shell am start -n com.tencent.mtt/.MainActivity]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "UCMobile",
+            "adb": [
+                "[adb shell am start -n com.UCMobile/.main.UCMobile]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "tonghuashun",
+            "adb": [
+                "[adb shell am start -n com.hexin.plat.android/.LogoEmptyActivity]"
+            ],
+            "text": ["川投能源","长江电力","A股","美股","证券","基金","期货","创业板指数","新手社区","大盘趋势","盘面分析","上证指数","海外投资","稳健理财","货币风向"]
+        },
+        {
+            "name_en": "meituantakeout",
+            "adb": [
+                "[adb shell am start -n com.sankuai.meituan.takeoutnew/.ui.page.boot.WelcomeActivity]"
+            ],
+            "text": ["奶茶","蛋糕","汉堡","肉夹馍","豆浆","红枣味","辣子鸡","提拉米苏","冰淇淋","拿铁","牛排","披萨","番茄炒蛋","土豆丝"]
+        },
+        {
+            "name_en": "eleme",
+            "adb": [
+                "[adb shell monkey -p me.ele -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["奶茶","蛋糕","汉堡","肉夹馍","豆浆","红枣味","辣子鸡","提拉米苏","冰淇淋","拿铁","牛排","披萨","番茄炒蛋","土豆丝"]
+        },
+        {
+            "name_en": "jinritoutiao",
+            "adb": [
+                "[adb shell am start -n com.ss.android.article.news/.activity.MainActivity]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "tencentnews",
+            "adb": [
+                "[adb shell am start -n com.tencent.news/.activity.SplashActivity]"
+            ],
+            "text": ["热门资讯","今天的新闻","科技新闻","财经新闻","关于旅行的文章","关于健康的文章","体育新闻","搞笑新闻","旅游","美食","烘焙","插画"]
+        },
+        {
+            "name_en": "zuoyebang",
+            "adb": [
+                "[adb shell am start -n com.baidu.homework/.activity.init.InitActivity]"
+            ],
+            "text": ["高中英语","考研英语","椭圆方程","勾股定理","鸡兔同笼","唐诗","牛顿第二定律","二元一次方程","概率","地中海气候","烧杯","作文"]
+        },
+        {
+            "name_en": "xiaoyuan",
+            "adb": [
+                "[adb shell am start -n com.fenbi.android.solar/.activity.RouterActivity]"
+            ],
+            "text": ["高中英语","考研英语","椭圆方程","勾股定理","鸡兔同笼","唐诗","牛顿第二定律","二元一次方程","概率","地中海气候","烧杯","作文"]
+        },
+        {
+            "name_en": "youdao",
+            "adb": [
+                "[adb shell am start -n com.youdao.dict/.activity.DictSplashActivity]"
+            ],
+            "text": ["翻译成英语","翻译成日文","翻译成中文","藤蔓","abandon","complexity","自然语言处理","state of the art","计划","实验","对照实验","ablation study"]
+        },
+        {
+            "name_en": "baicizhan",
+            "adb": [
+                "[adb shell am start -n com.jiongji.andriod.card/com.baicizhan.main.activity.MainTabActivity]"
+            ],
+            "text": ["翻译成英语","翻译成日文","翻译成中文","藤蔓","abandon","complexity","自然语言处理","state of the art","计划","实验","对照实验","ablation study"]
+        },
+        {
+            "name_en": "BaiduMap",
+            "adb": [
+                "[adb shell am start -n com.baidu.BaiduMap/com.baidu.baidumaps.MapsActivity]"
+            ],
+            "text": ["附近的餐厅","电影院","北京","北京大学","机场","最近的加油站","华润五彩城","附近的药店","附近的超市","天安门广场","长城","地铁站"]
+        },
+        {
+            "name_en": "didi",
+            "adb": [
+                "[adb shell am start -n com.sdu.didi.psnger/com.didi.sdk.app.MainActivity]"
+            ],
+            "text": ["附近的餐厅","电影院","北京","北京大学","机场","最近的加油站","华润五彩城","附近的药店","附近的超市","天安门广场","长城","地铁站"]
+        },
+        {
+            "name_en": "12306",
+            "adb": [
+                "[adb shell am start -n com.MobileTicket/.ui.activity.WelcomeGuideActivity]"
+            ],
+            "text": ["北京市","上海市","合肥市","海南市","天津市","哈尔滨市","三亚","乌鲁木齐"]
+        },
+        {
+            "name_en": "mtxx",
+            "adb": [
+                "[adb shell am start -n com.mt.mtxx.mtxx/.MainActivity]"
+            ],
+            "text": ["美颜相机", "照片编辑", "美图秀秀", "自拍神器", "滤镜", "美图", "P图软件", "相册管理", "瘦脸", "美白"]
+        },
+        {
+            "name_en": "androidesk",
+            "adb": [
+                "[adb shell am start -n com.androidesk/com.adesk.picasso.view.HomeActivity]"
+            ],
+            "text": ["壁纸", "桌面背景", "高清壁纸", "动态壁纸", "手机壁纸", "安卓壁纸", "锁屏壁纸", "主题壁纸", "风景壁纸", "个性壁纸"]
+        },
+        {
+            "name_en": "wpsOffice",
+            "adb": [
+                "[adb shell am start -n cn.wps.moffice_eng/cn.wps.moffice.main.StartPublicActivity]"
+            ],
+            "text": ["免费模板","免费图案","表格","文档","办公软件", "PDF阅读器", "表格制作", "演示文稿", "文档扫描", "云服务", "文件管理", "文字处理"]
+        },
+        {
+            "name_en": "QQmail",
+            "adb": [
+                "[adb shell am start -n com.tencent.androidqqmail/com.tencent.qqmail.launcher.desktop.LauncherActivity]"
+            ],
+            "text": ["邮箱", "QQ邮箱", "电子邮件", "邮件管理", "收发邮件", "邮件客户端", "IMAP", "SMTP", "邮件提醒", "附件下载"]
+        },
+        {
+            "name_en": "keep",
+            "adb": [
+                "[adb shell am start -n com.gotokeep.keep/.splash.SplashActivity]"
+            ],
+            "text": ["健身", "运动", "Keep", "减肥", "瑜伽", "跑步", "健身计划", "健身教练", "运动记录", "健康管理"]
+        },
+        {
+            "name_en": "qqpimsecure",
+            "adb": [
+                "[adb shell am start -n com.tencent.qqpimsecure/com.tencent.server.fore.DefaultAliasActivity]"
+            ],
+            "text": ["手机安全","手机清理","手机加速","手机防盗","手机管控","手机卫士","手机优化","手机保护","手机杀毒","手机管理"]
+        },
+        {
+            "name_en": "ludashi",
+            "adb": [
+                "[adb shell am start -n com.ludashi.benchmark/.SplashActivity]"
+            ],
+            "text": ["硬件检测","系统优化","性能测试","电脑诊断","硬件信息","系统清理","驱动更新","温度监控","电脑加速","硬件升级"]
+        },
+        {
+            "name_en": "icoolmeWeather",
+            "adb": [
+                "[adb shell am start -n com.icoolme.android.weather/.activity.SmartWeatherActivity]"
+            ],
+            "text": ["天气预报","实时天气","生活指数", "空气质量","风力风向","气温变化","台风路径","天气预警"]
+        },
+        {
+            "name_en": "pureweather",
+            "adb": [
+                "[adb shell am start -n hanjie.app.pureweather/.module.SplashActivity]"
+            ],
+            "text": ["天气预报","实时天气","生活指数", "空气质量","风力风向","气温变化","台风路径","天气预警"]
+        },
+        {
+            "name_en": "QQReader",
+            "adb": [
+                " [adb shell am start -n com.qq.reader/.activity.SplashActivity]"
+            ],
+            "text": ["电子书","漫画阅读","免费书籍", "阅读社区","阅读推荐","书城","排行榜","男生榜","女生榜"]
+        },
+        {
+            "name_en": "dragonRead",
+            "adb": [
+                "[adb shell am start -n com.dragon.read/.pages.splash.SplashActivity]"
+            ],
+            "text": ["红楼梦","百年孤独","科幻小说","我的书架","我的书库","每日签到","最新推荐","诡秘之主","玄幻小说","格林童话","金庸"]
+        },
+        {
+            "name_en": "weread",
+            "adb": [
+                "[adb shell am start -n com.tencent.weread/.LauncherActivity]"
+            ],
+            "text": ["红楼梦","百年孤独","科幻小说","我的书架","我的书库","每日签到","最新推荐","诡秘之主","玄幻小说","格林童话","金庸"]
+        },
+        {
+            "name_en": "zhuishushenqi",
+            "adb": [
+                "[adb shell am start -n com.ushaqi.zhuishushenqi/.ui.SplashActivity]"
+            ],
+            "text": ["红楼梦","百年孤独","科幻小说","我的书架","我的书库","每日签到","最新推荐","诡秘之主","玄幻小说","格林童话","金庸"]
+        },
+        {
+            "name_en": "seekbooks",
+            "adb": [
+                "[adb shell am start -n com.flyersoft.seekbooks/com.flyersoft.WB.SplashActivity]"
+            ],
+            "text": ["红楼梦","百年孤独","科幻小说","我的书架","我的书库","每日签到","最新推荐","诡秘之主","玄幻小说","格林童话","金庸"]
+        },
+        {
+            "name_en": "pdfreader",
+            "adb": [
+                "[adb shell am start -n com.tingniu.pdfreader/.ui.SplashActivity]"
+            ],
+            "text": ["红楼梦","百年孤独","科幻小说","我的书架","我的书库","每日签到","最新推荐","诡秘之主","玄幻小说","格林童话","金庸"]
+        },
+        {
+            "name_en": "supercaculator",
+            "adb": [
+                "[adb shell am start -n com.jincheng.supercaculator/.activity.SplashActivity]"
+            ],
+            "text": ["科学计算器","便捷计算","数字计算器","简易计算","数学工具","人工智能计算","实用工具","多功能计算器","精准计算","计算器应用"]
+        },
+        {
+            "name_en": "calculator",
+            "adb": [
+                "[adb shell am start -n com.doudou.calculator/.MainActivity]"
+            ],
+            "text": ["科学计算器","便捷计算","数字计算器","简易计算","数学工具","人工智能计算","实用工具","多功能计算器","精准计算","计算器应用"]
+        },
+        {
+            "name_en": "qqdownloader",
+            "adb": [
+                "[adb shell am start -n com.tencent.android.qqdownloader/com.tencent.pangu.link.SplashActivity]"
+            ],
+            "text": ["热门手游","最新的热门游戏","最新的游戏","游戏攻略","射击游戏","益智游戏","闯关游戏","数独","糖果传奇","2048","经营游戏"]
+        },
+        {
+            "name_en": "qichezhijia",
+            "adb": [
+                "[adb shell am start -n com.cubic.autohome/.LogoActivity]"
+            ],
+            "text": ["汽车资讯","车辆查询","车友交流","汽车导购","汽车技术","汽车维修","汽车保养","汽车评测","汽车市场","汽车购买"]
+        },
+        {
+            "name_en": "medicinehelper",
+            "adb": [
+                "[adb shell am start -n cn.dxy.medicinehelper/.activity.DrugLaunchActivity]"
+            ],
+            "text": ["药品查询","服药提醒","用药记录","健康管理","药物相互作用","药品信息","用药指南","健康助手","药品剂量","用药安全"]
+        },
+        {
+            "name_en": "anjuke",
+            "adb": [
+                "[adb shell am start -n com.anjuke.android.app/.mainmodule.WelcomeActivity]"
+            ],
+            "text": ["房地产信息","房产搜索","房价查询","二手房交易","新房楼盘","租房信息","房产市场","房屋买卖","房屋租赁","家居装修"]
+        },
+        {
+            "name_en": "cloudweather",
+            "adb": [
+                " [adb shell am start -n com.nowcasting.activity/.SplashActivity]"
+            ],
+            "text": ["天气预报","实时天气","生活指数", "空气质量","风力风向","气温变化","台风路径","天气预警"]
+        },
+        {
+            "name_en": "duapp",
+            "adb": [
+                "[adb shell am start -n com.shizhuang.duapp/.modules.home.ui.SplashActivity]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐","插线板","nike","阿迪达斯"]
+        },
+        {
+            "name_en": "netmail",
+            "adb": [
+                "[adb shell am start -n com.netease.mobimail/com.netease.mail.biz.main.SplashActivity]"
+            ],
+            "text": ["邮箱", "网易邮箱", "电子邮件", "邮件管理", "收发邮件", "邮件客户端", "IMAP", "SMTP", "邮件提醒", "附件下载"]
+        },
+        {
+            "name_en": "taptap",
+            "adb": [
+                "[adb shell monkey -p com.taptap -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["手机游戏","游戏下载","游戏社区","网络游戏","手游推荐","手机游戏平台","游戏评价","游戏排行榜","热门游戏","手机游戏网站"]
+        },
+        {
+            "name_en": "smarthome",
+            "adb": [
+                "[adb shell monkey -p com.xiaomi.smarthome -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["喂食器","关灯","开灯","拉开窗帘","播放音乐","打开电视","煮饭","烧水"]
+        },
+        {
+            "name_en": "xiaomiShop",
+            "adb": [
+                "[adb shell monkey -p com.xiaomi.shop -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐","插线板"]
+        },
+        {
+            "name_en": "vipshop",
+            "adb": [
+                "[adb shell monkey -p com.achievo.vipshop -c android.intent.category.LAUNCHER 1]"
+            ],
+            "text": ["便宜的手机壳","时尚衣服","新鲜的水果","适合夏天穿的连衣裙","关于烹饪的书","电视机","餐巾纸","巧克力","可乐","插线板"]
+        },
+        {
+            "name_en": "starbucks",
+            "adb": [
+                "[adb shell am start -n com.starbucks.cn/.home.revamp.launch.RevampLaunchActivity]"
+            ],
+            "text": ["蛋糕","冰美式","冰淇淋","最近门店","咖啡","三明治","抹茶","星冰乐","酥","浓缩","摩卡","拿铁"]
+        },
+        {
+            "name_en": "starbucksen",
+            "adb": [
+                "[adb shell am start -n com.starbucks.cn/.home.revamp.launch.RevampLaunchActivity]"
+            ],
+            "text": ["Raw Coconut Latte","Iced Americano","Hot-selling Set Meal","Nearest Store","Hot Coffee","Member","Points","Points Redemption","Shopping Cart","Shopping History","Mocha","Latte","Surrounding Goods"]
+        },
+        {
+            "name_en": "lucky",
+            "adb": [
+                "[adb shell am start -n com.lucky.luckyclient/com.luckin.client.main.FirstActivity]"
+            ],
+            "text": ["生椰拿铁","冰美式","热销套餐","最近门店","热咖啡","会员","积分","积分兑换","购物车","购物历史","摩卡","拿铁","周边商品"]
+        },
+        {
+            "name_en": "heyteago",
+            "adb": [
+                "[adb shell am start -n com.heyteago/.MainActivity]"
+            ],
+            "text": ["蛋糕","冰美式","冰淇淋","最近门店","咖啡","三明治","抹茶","星冰乐","酥","浓缩","摩卡","拿铁"]
+        }
+    ]
+}

@@ -1,0 +1,579 @@
+{
+  "日历": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.INSERT -t vnd.android.cursor.item/event -e \"title\" <x> --es \"beginTime\" \"<startTimestamp>\" --es \"endTime\" \"<endtimestamp>\"",
+      "Function Description": "Create a new calendar event with pre-populated title",
+      "Parameter Information": "Replace <x> with the event title, <start timestamp> and <end timestamp> are replaced with the timestamps of the event's start and end times respectively"
+    }
+  ],
+  "时钟": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SET_ALARM --ei android.intent.extra.alarm.HOUR <x> --ei android.intent.extra.alarm.MINUTES <y>",
+      "Function Description": "Triggers an intent to open the alarm clock application with a pre-filled time for setting a new alarm.",
+      "Parameter Information": "Replace <x> with the hour and <y> with the minutes for the alarm time. For example, for an alarm set at 7:15, <x> would be 7 and <y> would be 15."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.android.deskclock/.DeskClockTabActivity\n",
+      "Function Description": "启动时钟到主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.EDIT -d deskclock://details/edit",
+      "Function Description": "编辑世界时钟",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d deskclock://deskclock.android.com/main/SettingsActivity",
+      "Function Description": "打开时钟设置，铃声、音量、响铃时长",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.android.deskclock.shortcut.START_TIMER",
+      "Function Description": "启动计时器",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.android.deskclock.shortcut.STOP_WATCH",
+      "Function Description": "启动秒表",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "通用按键": [
+    {
+      "ADB Command": "adb shell input keyevent KEYCODE_BACK",
+      "Function Description": "Return to previous page",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell input keyevent KEYCODE_HOME",
+      "Function Description": "go to home page, which is equal to click the home button",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell input keyevent KEYCODE_SLEEP",
+      "Function Description": "Set the device to sleep",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell screencap -p /sdcard/screenshot.png",
+      "Function Description": "Takes a screenshot and saves it.",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell input keyevent KEYCODE_WAKEUP",
+      "Function Description": "Wake up the device",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "系统": [
+    {
+      "ADB Command": "adb shell svc wifi enable",
+      "Function Description": "Open wifi connection",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell svc wifi disable",
+      "Function Description": "Close wifi connection",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.settings.SETTINGS",
+      "Function Description": "Open the system settings.",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.bluetooth.adapter.action.REQUEST_ENABLE",
+      "Function Description": "Open bluetooth",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.bluetooth.adapter.action.REQUEST_DISABLE",
+      "Function Description": "Close bluetooth",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell svc data enable",
+      "Function Description": "Open Data flow switch",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell svc data disable",
+      "Function Description": "Close Data flow switch",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell settings put system screen_brightness <brightness_value>",
+      "Function Description": "Change screen brightness (0-255)",
+      "Parameter Information": "Replace <brightness_value> with a number from 0 to 255"
+    }
+  ],
+  "QQ音乐": [
+    {
+      "ADB Command": "adb shell am start -n com.tencent.qqmusic/.third.DispacherActivityForThird",
+      "Function Description": "Open QQ音乐",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d <file:///path/to/your/music.mp3> -t audio/mp3 com.tencent.qqmusic/.activity.AppStarterActivity",
+      "Function Description": "播放本地的MP3文件",
+      "Parameter Information": "替换 /path/to/your/music.mp3 为实际文件路径。"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d http://[音乐流URL] com.tencent.qqmusic/.activity.AppStarterActivity\n",
+      "Function Description": "打开指定的网页音乐流",
+      "Parameter Information": "替换 [音乐流URL] 为实际音乐流的网址"
+    }
+  ],
+  "天气": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d weather://weather2.miui.com/main com.miui.weather2/.ActivityWeatherMain\n",
+      "Function Description": "打开天气APP的主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.EDIT -d weather://details com.miui.weather2/.view.EditDeeplinkActivity\n",
+      "Function Description": "编辑天气详情页面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.miui.weather.widget_city_manager com.miui.weather2/.ActivitySearchCity",
+      "Function Description": "搜索城市,添加新城市的天气",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d weather://weather2.miui.com/dailyforcast/detail com.miui.weather2/.ActivityDailyForecastDetail",
+      "Function Description": "查看当前城市的天气详情",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a miui.intent.action.weather -d weather://weather2.miui.com/dailyforcast/detail com.miui.weather2/.ActivityDailyForecastDetail",
+      "Function Description": "查看特定日期的天气预报",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "计算器": [
+    {
+      "ADB Command": "adb shell am start -n com.miui.calculator/.cal.CalculatorActivity",
+      "Function Description": "启动计算器主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.miui.calculator.action.SCIENTIFIC_MODE",
+      "Function Description": "启动科学计算器模式",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.miui.calculator/.convert.CurrencyActivity",
+      "Function Description": "打开货币转换功能",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.miui.calculator.action.TAX",
+      "Function Description": "打开房贷计算器",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a com.miui.calculator.action.MORTGAGE",
+      "Function Description": "打开税务计算器",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "文件管理": [
+    {
+      "ADB Command": "adb shell am start -n com.android.fileexplorer/.FileExplorerTabActivity",
+      "Function Description": "启动文件管理器",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d <file path> -t <file type>",
+      "Function Description": "打开特定文件类型",
+      "Parameter Information": "将<file path>替换为目标文件的绝对路径， 例如file:///path/to/your/file.pdf   <file type>替换为目标文件的类型，例如：application/pdf"
+    },
+    {
+      "ADB Command": "adb shell am start -a com.android.fileexplorer.search -d content://com.android.fileexplorer.myprovider/search_suggest_query?query=<YourSearchQuery>",
+      "Function Description": "搜索文件",
+      "Parameter Information": "将<YourSearchQuery>替换为匹配条件"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.GET_CONTENT -t */*",
+      "Function Description": "启动一个内容选择器，允许用户在设备上选择任何类型的文件。",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "高德地图": [
+    {
+      "ADB Command": "adb shell am start -n com.autonavi.minimap/com.autonavi.map.activity.SplashActivity",
+      "Function Description": "启动主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d amapuri://route/plan/?dname=<目的地> com.autonavi.minimap",
+      "Function Description": "搜索从当前位置到目的地位置的路线导航",
+      "Parameter Information": "替换 <目的地> 为您想搜索的位置的名称"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d geo:纬度,经度?z=缩放级别&q=搜索关键词 com.autonavi.minimap",
+      "Function Description": "附近推荐搜索",
+      "Parameter Information": "替换 纬度 和 经度 为您当前位置的坐标。\n缩放级别 可以根据您的需求调整。\n搜索关键词 可以替换为您想搜索的内容，如“餐厅”、“咖啡馆”等"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d geo:纬度,经度 com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity",
+      "Function Description": "使用地理位置打开地图",
+      "Parameter Information": "替换 纬度 和 经度 为实际的坐标值。"
+    }
+  ],
+  "米家": [
+    {
+      "ADB Command": "adb shell am start -n com.xiaomi.smarthome/.SmartHomeMainActivity",
+      "Function Description": "启动主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.xiaomi.smarthome/.device.DeviceListActivity",
+      "Function Description": "启动设备列表",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.xiaomi.smarthome/.device.control.DeviceControlActivity",
+      "Function Description": "打开设备控制界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.xiaomi.smarthome/.smartscene.SmartSceneActivity",
+      "Function Description": "打开智能场景设置",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb logcat | grep com.xiaomi.smarthome",
+      "Function Description": "查看设备日志",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "小米商城": [
+    {
+      "ADB Command": "adb shell am start -n com.xiaomi.shop/.activity.MainTabActivity",
+      "Function Description": "启动主界面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "多看": [
+    {
+      "ADB Command": "adb shell am start -n com.duokan.reader/.DkReaderActivity",
+      "Function Description": "启动主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d <filepath> -t application/epub+zip com.duokan.reader/.DkReaderActivity",
+      "Function Description": "打开特定格式的文件",
+      "Parameter Information": "<filepath>替换为文件地址，例如file:///path/to/your/book.epub"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEARCH -n com.duokan.reader/.DkReaderActivity --es query \"<搜索关键词>\"",
+      "Function Description": "搜索小说",
+      "Parameter Information": "<搜索关键词>替换为实际的搜索词"
+    }
+  ],
+  "有道翻译官": [
+    {
+      "ADB Command": "adb shell am start -n com.youdao.translator/.MainActivity",
+      "Function Description": "启动主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.youdao.translator/com.youdao.yddocumenttranslate.activity.DocTransActivity",
+      "Function Description": "打开文档翻译活动",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.youdao.translator/com.youdao.webtrans.WebTransActivity",
+      "Function Description": "打开网页翻译活动",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEND -t text/plain -e android.intent.extra.TEXT \"<翻译这段文本>\" com.youdao.translator",
+      "Function Description": "文本翻译",
+      "Parameter Information": "将<翻译这段文本>替换为你需要翻译的文本"
+    }
+  ],
+  "携程旅行": [
+  ],
+  "喜马拉雅": [
+    {
+      "ADB Command": "adb shell am start -n com.ximalaya.ting.android/.host.activity.MainActivity\n",
+      "Function Description": "启动喜马拉雅主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d file:///path/to/your/audio.mp3 -t audio/* com.ximalaya.ting.android/.host.activity.MainActivity",
+      "Function Description": "处理音频文件",
+      "Parameter Information": "替换 /path/to/your/audio.mp3 为音频文件路径。"
+    }
+  ],
+  "QQ": [
+    {
+      "ADB Command": "adb shell am start -n com.tencent.mobileqq/.activity.SplashActivity\n",
+      "Function Description": "启动 QQ 主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.tencent.mobileqq/.activity.ChatActivity --es uin \"联系人QQ号码\"\n",
+      "Function Description": "启动聊天界面",
+      "Parameter Information": "联系人QQ号码替换为具体的QQ号码"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEND -t text/plain -e android.intent.extra.TEXT \"要发送的文本\" com.tencent.mobileqq\n",
+      "Function Description": "建立发送文件意图，但并没指定联系人",
+      "Parameter Information": "将<要发送的文本>替换为具体文本"
+    }
+  ],
+  "拼多多": [
+    {
+      "ADB Command": "adb shell am start -n com.xunmeng.pinduoduo/.ui.activity.MainFrameActivity",
+      "Function Description": "启动拼多多主界面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "爱奇艺": [
+    {
+      "ADB Command": "adb shell am start -n com.qiyi.video/.WelcomeActivity",
+      "Function Description": "启动爱奇艺主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.qiyi.video/org.iqiyi.video.activity.PlayerActivity",
+      "Function Description": "打开爱奇艺播放器",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d file:///path/to/your/video.mp4 -t video/mp4 com.qiyi.video/org.iqiyi.video.activity.PlayerActivity",
+      "Function Description": "播放本地存储的 MP4 文件",
+      "Parameter Information": "替换 /path/to/your/video.mp4 为视频文件路径"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d http://[视频流URL] com.qiyi.video/org.iqiyi.video.activity.PlayerActivity",
+      "Function Description": "打开网络视频流",
+      "Parameter Information": "替换 视频流URL 为实际的视频流网址"
+    }
+  ],
+  "微博": [
+    {
+      "ADB Command": "adb shell am start -n com.sina.weibo/.SplashActivity\n",
+      "Function Description": "启动微博主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d sinaweibo://user?uid=用户UID com.sina.weibo\n",
+      "Function Description": "打开特定用户的微博页面",
+      "Parameter Information": "替换 用户UID 为实际用户的UID。"
+    },
+    {
+      "ADB Command": "adb shell am start -n com.sina.weibo/.MainTabActivity --es extra_show_tab \"MESSAGE\"\n",
+      "Function Description": "打开微博消息界面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "抖音": [
+    {
+      "ADB Command": "adb shell am start -n com.ss.android.ugc.aweme/.main.MainActivity\n",
+      "Function Description": "打开抖音到主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.ss.android.ugc.aweme/.share.OpenPlatformShareRealActivity\n",
+      "Function Description": "打开分享活动",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -c android.intent.category.DEFAULT -d \"taobao://detail.aweme.sdk.com\"\n",
+      "Function Description": "处理淘宝链接",
+      "Parameter Information": "taobao://detail.aweme.sdk.com 替换为任何和淘宝相关的链接"
+    }
+  ],
+  "小米视频": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEARCH -n com.miui.video/.feature.mine.setting.SettingActivity",
+      "Function Description": "此命令在小米视频应用内执行搜索操作",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.miui.video/.Launcher1",
+      "Function Description": "启动小米视频主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.miui.video/.localvideoplayer.LocalPlayerActivity -a duokan.intent.action.VIDEO_PLAY -d content://path/to/video",
+      "Function Description": "播放本地视频文件",
+      "Parameter Information": "//path/to/video 替换为本地视频文件的路径"
+    }
+  ],
+  "小米有品": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.xiaomi.youpin/.activity.SplashActivity -d \"youpin://\"",
+      "Function Description": "打开小米有品的主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.xiaomi.youpin/.activity.SplashActivity -d \"http://app.youpin.mi.com\"",
+      "Function Description": "在小米有品应用内打开指定的HTTP链接",
+      "Parameter Information": "将http://app.youpin.mi.com替换为目标页面的链接"
+    }
+  ],
+  "今日头条": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.ss.android.article.news/com.bytedance.news.schema.AdsAppActivity -d \"snssdk141://特定内容\"",
+      "Function Description": "此命令用于打开头条新闻应用并查看特定Scheme的内容",
+      "Parameter Information": "将特定内容换为你感兴趣的主题"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEND -n com.ss.android.article.news/com.bytedance.ug.diversion.DyNewSearchActivity",
+      "Function Description": "进入搜索页面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "应用商店": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.xiaomi.market/.ui.MarketTabActivity -d \"mimarket://home\"",
+      "Function Description": "打开应用商城主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEARCH -n com.xiaomi.market/.ui.MarketPreferenceActivity",
+      "Function Description": "打开应用商店设置页面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.xiaomi.market/.ui.JoinActivity -d \"mimarket://search\"",
+      "Function Description": "打开商城搜索页面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.xiaomi.market/.business_ui.useragreement.basicmode.BasicModeAgreementActivity -d \"mimarket://agreement/basicmode\"",
+      "Function Description": "进入商城模式选择页面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "大众点评": [
+    {
+      "ADB Command": "adb shell am start -n com.dianping.v1/.NovaMainActivity -d \"dianping://home\"",
+      "Function Description": "打开主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.dianping.v1/.NovaMainActivity -d \"dianping://me\"",
+      "Function Description": "打开个人中心页面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.dianping.v1/com.meituan.android.trafficayers.webview.TrafficKNBWebViewActivity -d \"dianping://www.dianping.com\"",
+      "Function Description": "此命令尝试在大众点评应用内打开一个特定的网页。",
+      "Parameter Information": "替换dianping://www.dianping.com，为要打开的目标网页"
+    }
+  ],
+  "去哪儿旅行": [
+    {
+      "ADB Command": "adb shell monkey -p com.Qunar -c android.intent.category.LAUNCHER 1",
+      "Function Description": "启动去哪儿旅行到主界面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ],
+  "照片": [
+    {
+      "ADB Command": "adb shell am start -n com.miui.gallery/.activity.HomePageActivity",
+      "Function Description": "启动小米相册应用的主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -d [file_uri] -t [mime_type] com.miui.gallery",
+      "Function Description": "查看相册中的特定图片或视频",
+      "Parameter Information": "替换[file_uri]为图片或视频的文件URI，替换[mime_type]为相应的MIME类型，如image/jpeg或video/mp4。"
+    },
+    {
+      "ADB Command": "adb push /path/to/your/image.jpg /sdcard/DCIM/Camera/\n",
+      "Function Description": "导入照片到默认相册",
+      "Parameter Information": "/path/to/your/image.jpg /sdcard/DCIM/Camera/ 分别为源和目标路径"
+    },
+    {
+      "ADB Command": "adb pull /sdcard/DCIM/Camera/your_image.jpg /path/to/destination/\n",
+      "Function Description": "导出照片到设备",
+      "Parameter Information": "/sdcard/DCIM/Camera/your_image.jpg 替换为照片路径  /path/to/destination/ 为目标路径"
+    }
+  ],
+  "短信": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.SEND -n com.android.mms/.ui.ComposeMessageRouterActivity --es sms_body \"消息内容\"",
+      "Function Description": "此命令仅用于发送纯文本消息",
+      "Parameter Information": "消息内容 替换为要发送的消息内容"
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.android.mms/.ui.ComposeMessageRouterActivity -d \"sms://\" --es address \"电话号码\"",
+      "Function Description": "此命令用于查看或发送SMS消息",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a miui.intent.action.APP_SETTINGS -n com.android.mms/.ui.MessagingPreferenceActivity",
+      "Function Description": "此命令打开短信应用的设置界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.android.mms/.ui.ManageSimMessages",
+      "Function Description": "此命令用于管理SIM卡上的短信",
+      "Parameter Information": "No additional parameters required."
+    }
+    ],
+  "联系人": [
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.INSERT -n com.android.contacts/.activities.ContactEditorActivity",
+      "Function Description": "此命令用于插入新的联系人",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.DIAL -n com.android.contacts/.activities.TwelveKeyDialer",
+      "Function Description": "此命令用于拨打电话号码",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.GET_CONTENT -n com.android.contacts/.activities.ContactPhonePickerActivity --ei type 1",
+      "Function Description": "此命令用于获取联系人的内容",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.android.contacts/.activities.NonPhoneActivity",
+      "Function Description": "此命令用于查看电话记录",
+      "Parameter Information": "No additional parameters required."
+    }
+    ],
+  "笔记": [
+    {
+      "ADB Command": "adb shell am start -a com.miui.todo.shortcut.action.INSERT_OR_EDIT -n com.miui.notes/.ui.NotesListActivity",
+      "Function Description": "此命令用于添加或编辑文本或音频便签",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.INSERT_OR_EDIT -n com.miui.notes/.ui.activity.CreateDoodleNoteBridgeActivity",
+      "Function Description": "此命令用于创建涂鸦类型的便签",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -a android.intent.action.VIEW -n com.miui.notes/.ui.NotesListActivity",
+      "Function Description": "此命令用于查看文本或电话便签",
+      "Parameter Information": "No additional parameters required."
+    }
+    ],
+    "主题壁纸": [
+    {
+      "ADB Command": "adb shell am start -n com.android.thememanager/.ThemeResourceProxyTabActivity",
+      "Function Description": "打开主界面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.android.thememanager/.search.ThemeSearchActivity",
+      "Function Description": "打开搜索页面",
+      "Parameter Information": "No additional parameters required."
+    },
+    {
+      "ADB Command": "adb shell am start -n com.android.thememanager/.activity.ComponentActivity -d theme://customize",
+      "Function Description": "启动小米主题管理器中的组件活动界面",
+      "Parameter Information": "No additional parameters required."
+    }
+  ]
+}

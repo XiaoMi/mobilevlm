@@ -1,0 +1,1928 @@
+[
+    {
+        "Package Name": "com.android.camera",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "5.1.000241.0"
+    },
+    {
+        "Package Name": "com.miui.daemon",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "2.0"
+    },
+    {
+        "Package Name": "com.iflytek.inputmethod.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "8.1.8099"
+    },
+    {
+        "Package Name": "com.google.android.overlay.modules.documentsui.cn",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.updater",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "8.1.9"
+    },
+    {
+        "Package Name": "com.miui.powerkeeper",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "4.2.00"
+    },
+    {
+        "Package Name": "com.miui.miservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14.1.0.0"
+    },
+    {
+        "Package Name": "com.miui.miwallpaper.overlay.customize",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.tsmclient",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "23.08.22.1.f"
+    },
+    {
+        "Package Name": "com.android.modulemetadata",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.connectivity.resources",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "S-initial"
+    },
+    {
+        "Package Name": "android.miui.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.calllogbackup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "io.appium.uiautomator2.server",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "4.12.2"
+    },
+    {
+        "Package Name": "android.miui.home.launcher.res",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.systemui.accessibility.accessibilitymenu",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_3_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.securitycore",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.7-14-230915"
+    },
+    {
+        "Package Name": "com.android.providers.contacts",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.vpnsdkmanager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "24"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_4a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.xiaomi.mibrain.speech",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.5.1"
+    },
+    {
+        "Package Name": "com.miui.fm",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "10.1.2.2"
+    },
+    {
+        "Package Name": "com.miui.nextpay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "23.07.25.1"
+    },
+    {
+        "Package Name": "com.android.dreams.basic",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.companiondevicemanager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.cts.priv.ctsshim",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14-10093150"
+    },
+    {
+        "Package Name": "com.xiaomi.securitysts",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.230720"
+    },
+    {
+        "Package Name": "com.miui.video",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "v2023022430(MiVideo-ROM)"
+    },
+    {
+        "Package Name": "com.android.mms.service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.downloads",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "134.23.09.800001"
+    },
+    {
+        "Package Name": "com.miui.mediaviewer",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "v2023073002(MediaViewer-TEST)"
+    },
+    {
+        "Package Name": "com.android.bluetoothmidiservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.mfashiongallery.emag",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "M923083100-S"
+    },
+    {
+        "Package Name": "com.miui.carlink",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.5.0-20230824"
+    },
+    {
+        "Package Name": "com.android.credentialmanager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.networkstack",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.xmsf",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "6.2.4-C"
+    },
+    {
+        "Package Name": "io.appium.settings",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.2.0"
+    },
+    {
+        "Package Name": "android.miui.overlay.telephony",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "android.ext.shared",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1"
+    },
+    {
+        "Package Name": "com.miui.voiceassist",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "6.7.3.4914"
+    },
+    {
+        "Package Name": "com.android.networkstack.tethering",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.micloud.sdk",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "2.0.0.0"
+    },
+    {
+        "Package Name": "com.android.keychain",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_2_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.xiaomi.metoknlp",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "6.0.4"
+    },
+    {
+        "Package Name": "com.android.connectivity.resources.goldfish.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.webview",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "113.0.5672.136"
+    },
+    {
+        "Package Name": "com.android.virtualmachine.res",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.emulator.multidisplay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.shell",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.micloudsync",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.12.0.0.20"
+    },
+    {
+        "Package Name": "com.android.wifi.resources.xiaomi",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miuix.editor",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.scanner",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "15.1.0"
+    },
+    {
+        "Package Name": "com.android.inputdevices",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.nearby.halfsheet",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.telephony.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.weather2",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "false",
+        "usesNonSdkApi": false,
+        "Version Name": "13.5.3.0"
+    },
+    {
+        "Package Name": "com.miui.rom",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.11.0.0"
+    },
+    {
+        "Package Name": "com.xiaomi.gnss.polaris",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2023.09.06.2"
+    },
+    {
+        "Package Name": "com.android.sdksetup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.carrierconfig.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.apps.tag",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.1"
+    },
+    {
+        "Package Name": "com.miui.core.internal.services",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_6a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.touchassistant",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "9.0.5.8.1"
+    },
+    {
+        "Package Name": "com.android.sharedstoragebackup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.media",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.calendar",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "13.0.0.4"
+    },
+    {
+        "Package Name": "com.miui.analytics",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "5.13.0"
+    },
+    {
+        "Package Name": "com.android.incallui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0.46"
+    },
+    {
+        "Package Name": "com.android.providers.blockednumber",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.google.android.documentsui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14-10484568"
+    },
+    {
+        "Package Name": "com.android.statementservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.printservice.recommendation",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.3.0"
+    },
+    {
+        "Package Name": "com.xiaomi.smarthome",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "8.8.627"
+    },
+    {
+        "Package Name": "com.miui.audiomonitor",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.proxyhandler",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.calendar",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "false",
+        "usesNonSdkApi": false,
+        "Version Name": "13.18.1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_3a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.settings.rro.device.hide.statusbar.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.xiaomi.account",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "R-23.08.07.02"
+    },
+    {
+        "Package Name": "com.miui.thirdappassistant",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.5"
+    },
+    {
+        "Package Name": "com.android.safetycenter.resources",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "33 system image"
+    },
+    {
+        "Package Name": "com.android.managedprovisioning",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.emergency",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.healthconnect.controller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.mishare.connectivity",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.16.0"
+    },
+    {
+        "Package Name": "com.miui.aod",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "DEV-2.14.1210-08021449"
+    },
+    {
+        "Package Name": "com.android.carrierdefaultapp",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.payment",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.6.2"
+    },
+    {
+        "Package Name": "com.android.backupconfirm",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.mi_connect_service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.14.121"
+    },
+    {
+        "Package Name": "com.miui.uireporter",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.1.0"
+    },
+    {
+        "Package Name": "com.android.server.telecom.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.networkstack.tethering.emulator",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.cellbroadcastservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.mtp",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_4a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.navigation.bar.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.virtualsim",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "6.5.3"
+    },
+    {
+        "Package Name": "com.miui.screenrecorder",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.12.7.10.1"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.double",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.theme.font.notoserifsource",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.networkstack.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.simactivate.service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "R-23.08.28"
+    },
+    {
+        "Package Name": "com.miui.personalassistant",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "5.7.13-08161724"
+    },
+    {
+        "Package Name": "com.android.browser",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "17.7.570901"
+    },
+    {
+        "Package Name": "com.miui.greenguard",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.8.09.04"
+    },
+    {
+        "Package Name": "com.miui.guardprovider",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.7.0-20230712.0"
+    },
+    {
+        "Package Name": "com.miui.cloudbackup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.12.1.6.0"
+    },
+    {
+        "Package Name": "com.android.managedprovisioning.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_3",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "20230316.0"
+    },
+    {
+        "Package Name": "com.android.wallpapercropper",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.security.onetrack",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.230901"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_4",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_7",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_5",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_6",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_5",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_3",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_4",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.contentcatcher",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.004"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_6",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.gestural",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_7",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.soundrecorder",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.3.14.9"
+    },
+    {
+        "Package Name": "com.android.role.notes.enabled",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.baidu.input_mi",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "10.6.121.710"
+    },
+    {
+        "Package Name": "com.miui.systemui.overlay.devices.android",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.settings.intelligence",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.macro",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.2.4.S"
+    },
+    {
+        "Package Name": "com.lbe.security.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "1.8.4"
+    },
+    {
+        "Package Name": "com.xiaomi.aicr",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0"
+    },
+    {
+        "Package Name": "com.android.settings.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.player",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.17.0.14-R"
+    },
+    {
+        "Package Name": "com.xiaomi.registration",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.0.1"
+    },
+    {
+        "Package Name": "com.miui.phrase",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.4.1"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_6_pro",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.extraphoto",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.8.6.0.0"
+    },
+    {
+        "Package Name": "com.bsp.catchlog",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "0.0.6-SNAPSHOT"
+    },
+    {
+        "Package Name": "com.xiaomi.vipaccount",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.2.6"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_3a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.deskclock",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "13.81.0"
+    },
+    {
+        "Package Name": "com.android.wallpaperbackup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_6a",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.securityadd",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "9.11.47-230831.0.1"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.twobutton",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.threebutton",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.systemAdSolution",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2023.03.28.17-release"
+    },
+    {
+        "Package Name": "com.miui.core",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.20.1.3"
+    },
+    {
+        "Package Name": "com.miui.settings.rro.device.type.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.localtransport",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "android",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.duokan.phone.remotecontroller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "6.6.0M"
+    },
+    {
+        "Package Name": "com.miui.compass",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "13.2.8.1"
+    },
+    {
+        "Package Name": "com.android.email",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "V13_20230721_b2"
+    },
+    {
+        "Package Name": "com.android.rkpdapp",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.permissioncontroller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "33 system image"
+    },
+    {
+        "Package Name": "com.miui.gallery",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "3.5.7.3"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_3a_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.face.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.se",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.pacprocessor",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.messaging",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.001"
+    },
+    {
+        "Package Name": "com.miui.accessibility",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "5.16.0"
+    },
+    {
+        "Package Name": "com.android.providers.media.module",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.freeform",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.youpin",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "5.4.44_miui"
+    },
+    {
+        "Package Name": "com.miui.contentextension",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.5.99"
+    },
+    {
+        "Package Name": "com.android.thememanager.customthemeconfig.config.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.tencent.mm",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "8.0.42"
+    },
+    {
+        "Package Name": "com.android.stk",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.camera.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "5.0.000045.3"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.hole",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.calculator",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "13.1.29"
+    },
+    {
+        "Package Name": "com.android.settings",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.bips",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.gestural_narrow_back",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.tall",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_7_pro",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "io.github.ylimit.droidbotapp",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.notes",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "6.1.5"
+    },
+    {
+        "Package Name": "com.android.carrierconfig",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "1.0.0"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.gestural_wide_back",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.xiaomi.shop",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "5.9.10.20230417.miui.1"
+    },
+    {
+        "Package Name": "com.android.federatedcompute.services",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "T-initial"
+    },
+    {
+        "Package Name": "com.xiaomi.finddevice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.packageinstaller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "5.1.6.2.0-20230725"
+    },
+    {
+        "Package Name": "com.xiaomi.xmsfkeeper",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.5"
+    },
+    {
+        "Package Name": "com.miui.notification",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.1.4.98"
+    },
+    {
+        "Package Name": "com.ifaa.seccam",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.9"
+    },
+    {
+        "Package Name": "com.xiaomi.location.fused",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.0.0"
+    },
+    {
+        "Package Name": "com.xiaomi.aireco",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.11.18.9bhr"
+    },
+    {
+        "Package Name": "com.android.devicelockcontroller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.musicfx",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "1.4"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.transparent",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.adservices.api",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "android.aosp.overlay.telephony",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.health.connect.backuprestore",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.google.android.overlay.modules.ext.services.cn",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "miui.systemui.plugin",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "14.0.1.94.0"
+    },
+    {
+        "Package Name": "com.miui.bugreport",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "3.3.15.37"
+    },
+    {
+        "Package Name": "com.miui.yellowpage",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "202308290"
+    },
+    {
+        "Package Name": "com.xiaomi.aiasst.service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "5.4.0"
+    },
+    {
+        "Package Name": "com.xiaomi.cameratools",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "23.09.05.0"
+    },
+    {
+        "Package Name": "com.android.providers.downloads.ui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "123.05.19.800006"
+    },
+    {
+        "Package Name": "com.miui.miwallpaper",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.9.9-ALPHA-08121530"
+    },
+    {
+        "Package Name": "com.android.ons",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.intentresolver",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "2021-11"
+    },
+    {
+        "Package Name": "com.miui.cit",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "0.3.8-SNAPSHOT"
+    },
+    {
+        "Package Name": "com.miui.misightservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "0.9.5"
+    },
+    {
+        "Package Name": "com.xiaomi.ugd",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.2.0"
+    },
+    {
+        "Package Name": "com.miui.vsimcore",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.8"
+    },
+    {
+        "Package Name": "com.android.certinstaller",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.mediaeditor",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.3.2.6"
+    },
+    {
+        "Package Name": "com.miui.hybrid",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.10.3.9"
+    },
+    {
+        "Package Name": "com.miui.system",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "signature|privileged",
+        "usesNonSdkApi": false,
+        "Version Name": "1.15.0.0"
+    },
+    {
+        "Package Name": "com.android.wifi.resources",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "R-initial"
+    },
+    {
+        "Package Name": "com.android.wifi.dialog",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.cleanmaster",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "662.0.230905.release"
+    },
+    {
+        "Package Name": "com.android.captiveportallogin",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.market",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.51.10"
+    },
+    {
+        "Package Name": "com.miui.newmidrive",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.12.0.5.91"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_7_pro",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.systemui.carriers.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.xiaomi.otrpbroker",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.220829"
+    },
+    {
+        "Package Name": "com.miui.backup",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "6.5.0.5"
+    },
+    {
+        "Package Name": "com.miui.securitycenter",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "8.2.2-230907.0.1"
+    },
+    {
+        "Package Name": "com.android.fileexplorer",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.5.1.0"
+    },
+    {
+        "Package Name": "com.android.simappdialog",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.telephony",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.wallpaper.livepicker",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.emu01",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.fido.asm",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.230706.2"
+    },
+    {
+        "Package Name": "com.miui.settings.rro.device.config.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.sdksandbox",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "T-initial"
+    },
+    {
+        "Package Name": "com.xiaomi.xaee",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "0.2"
+    },
+    {
+        "Package Name": "io.appium.uiautomator2.server.test",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "null"
+    },
+    {
+        "Package Name": "com.xiaomi.barrage",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0.9"
+    },
+    {
+        "Package Name": "com.miui.miwallpaper.config.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.aon",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.50"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.waterfall",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.qr",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2023_09_12_12_35"
+    },
+    {
+        "Package Name": "com.android.providers.settings",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_3_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.phone",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.systemui.navbar.gestural_extra_wide_back",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.systemui.gesture.line.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_4_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "android.aosp.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.bluetooth.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.traceur",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.contacts",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "12.3.7.1"
+    },
+    {
+        "Package Name": "com.android.phone.common.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.mirror",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "3.7.91.a"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_6_pro",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.internal.emulation.pixel_3a_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "cn.wps.moffice_eng.xiaomi.lite",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.3.0"
+    },
+    {
+        "Package Name": "com.android.location.fused",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.vpndialogs",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.uwb.resources",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "T-initial"
+    },
+    {
+        "Package Name": "com.miui.screenshot",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "RELEASE-1.4.78-08281728"
+    },
+    {
+        "Package Name": "com.android.cellbroadcastreceiver",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "R-initial"
+    },
+    {
+        "Package Name": "com.xiaomi.migameservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "0.6.3"
+    },
+    {
+        "Package Name": "com.miui.voicetrigger",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "v-5.7.0.15-qcom"
+    },
+    {
+        "Package Name": "com.android.systemui.emulation.pixel_4_xl",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.google.android.cellbroadcastreceiver.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.ondevicepersonalization.services",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "T-initial"
+    },
+    {
+        "Package Name": "com.android.htmlviewer",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.home",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "RELEASE-4.39.12.6764-09151558"
+    },
+    {
+        "Package Name": "com.google.android.ext.services",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "frc_340818020"
+    },
+    {
+        "Package Name": "com.miui.wmsvc",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.13"
+    },
+    {
+        "Package Name": "com.miui.system.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.xiaomi.gamecenter.sdk.service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "8.1.6.2"
+    },
+    {
+        "Package Name": "org.ifaa.aidl.manager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.230625"
+    },
+    {
+        "Package Name": "com.android.mms",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "14.2.4.6"
+    },
+    {
+        "Package Name": "com.android.providers.settings.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.providers.userdictionary",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.mi.health",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.19.3"
+    },
+    {
+        "Package Name": "com.android.cts.ctsshim",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14-10093150"
+    },
+    {
+        "Package Name": "com.xiaomi.aiasst.vision",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.2.2"
+    },
+    {
+        "Package Name": "com.android.emulator.radio.config",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.internal.display.cutout.emulation.corner",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.storagemanager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.quicksearchbox",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "10.3.2.07241"
+    },
+    {
+        "Package Name": "com.miui.cloudservice",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "1.12.0.1.25"
+    },
+    {
+        "Package Name": "com.android.systemui.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.simplemobiletools.calendar",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.4.2"
+    },
+    {
+        "Package Name": "com.milink.service",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14.4.2.0.876ac38.2809693"
+    },
+    {
+        "Package Name": "com.android.thememanager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.0.9.5"
+    },
+    {
+        "Package Name": "com.miui.voiceassistoverlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0"
+    },
+    {
+        "Package Name": "com.android.inputsettings.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.huanji",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "4.1.5"
+    },
+    {
+        "Package Name": "com.android.phone.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.printspooler",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.duokan.reader",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "false",
+        "usesNonSdkApi": false,
+        "Version Name": "7.31.85"
+    },
+    {
+        "Package Name": "com.miui.systemui.devices.overlay",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.miui.otaprovision",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "13.1.07.26.1"
+    },
+    {
+        "Package Name": "com.miui.newhome",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "6.0.08.0916"
+    },
+    {
+        "Package Name": "com.xiaomi.misettings",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "2.9.9.60"
+    },
+    {
+        "Package Name": "com.xiaomi.gamecenter",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": false,
+        "Version Name": "12.11.1.300"
+    },
+    {
+        "Package Name": "com.miui.misound",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "2.0"
+    },
+    {
+        "Package Name": "com.goolge.android.wifi.resources.xiaomi",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0"
+    },
+    {
+        "Package Name": "com.android.providers.partnerbookmarks",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.wallpaper.overlay.customize",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.mipay.wallet",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "6.62.0.4876.2147"
+    },
+    {
+        "Package Name": "com.android.dynsystem",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "org.mipay.android.manager",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.221024"
+    },
+    {
+        "Package Name": "com.tencent.soter.soterserver",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "1.0.221024.2"
+    },
+    {
+        "Package Name": "com.sohu.inputmethod.sogou.xiaomi",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "10.32.21.202308282141"
+    },
+    {
+        "Package Name": "com.android.hotspot2.osulogin",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.unionpay.tsmservice.mi",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "01.00.44"
+    },
+    {
+        "Package Name": "com.google.android.cellbroadcastservice.overlay.miui",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.android.externalstorage",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.youba.calculate",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.0.4"
+    },
+    {
+        "Package Name": "com.android.server.telecom",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "true",
+        "usesNonSdkApi": true,
+        "Version Name": "14"
+    },
+    {
+        "Package Name": "com.miui.securityinputmethod",
+        "miui.permission.USE_INTERNAL_GENERAL_API": "",
+        "usesNonSdkApi": false,
+        "Version Name": "3.0.3"
+    }
+]
