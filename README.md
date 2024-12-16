@@ -37,6 +37,28 @@ Example usage:
 python googleCreatDataset/arm_graph_para_lock.py --device_name 10.53.89.79:6532 --systemPort 8112 --appid 8201 --command_executorhttp://127.0.0.1:4812/wd/hub--appPackage com.lucky.luckyclient --name_en lucky --diff_max 0.5 --diff_png 0.3 --waitadb 8 --prefix lucky0_3_1_2_ --recheck -1
 ```
 
+Running the above collection instruction requires the following additional installations.
+
+- Install Node.js and Appium:
+
+    ```bash
+    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    sudo apt install npm
+    npm install -g appium@1.18.3
+    ```
+- Install graphical libraries:  
+   `sudo apt-get install xorg`
+
+- Activate the Python virtual environment:  
+   `source /path/to/new/virtual/environment/bin/activate`
+
+- Install Appium Python Client 1.3.0:  
+   `pip install Appium-Python-Client==1.3.0`
+
+---
+
+
 #### Parameter Descriptions
 
 - **device_name**: Name of the emulator.
