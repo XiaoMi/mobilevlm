@@ -56,8 +56,6 @@ Running the above collection instruction requires the following additional insta
 - Install Appium Python Client 1.3.0:  
    `pip install Appium-Python-Client==1.3.0`
 
----
-
 
 #### Parameter Descriptions
 
@@ -67,6 +65,13 @@ Running the above collection instruction requires the following additional insta
 - **--diff_max 0.5 --diff_png 0.3**: Page similarity thresholds for differentiating screens.
 - **--prefix lucky0_3_1_2_**: Distributed starting path for data collection.
 - **--recheck -1**: Specifies whether to recheck previously collected data. Set to `-1` for no recheck.
+
+
+### Appium
+![Appium](./appium.jpg)
+
+
+---
 
 
 ### Data Generation Code for Each Task
