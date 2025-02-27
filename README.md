@@ -29,6 +29,10 @@
 #### Training Data
 Training data is available at the following link: [data](https://huggingface.co/datasets/xwk123/Mobile3M/tree/main). We will gradually upload data for all apps.
 
+
+#### Training Json
+Training json files are available at the following link: [training_jsons](https://huggingface.co/datasets/wuqinzhuo/MobileVLM_traindata/tree/main). 
+
 #### Corpus Collection Script
 To start collecting data, run the script `main/corpus/googleCreatDataset/arm_graph_para_lock.py`.
 
